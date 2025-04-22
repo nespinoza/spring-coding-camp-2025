@@ -60,7 +60,7 @@ With your new list, `output[0]` should give you as output `'carlos;6\n'`. This o
 
 There's a handy function called `split` that allows you to separate information from a given string. To learn how to use it, suppose we have the string `s = 'a,b,c,d'`. If you then do `s.split(',')`, the output will be `['a', 'b', 'c', 'd']` (try it!).
 
-**Task 2:** using the `split` functionality of strings, do a for loop over the `output` list, and save the name of each person in a list `names` and the score of each person in a list called `scores`. Make sure the `scores` list has only strings (to this end, you can convert strings to ints by doing `int(yourstring)`).
+**Task 2:** using the `split` functionality of strings, do a for loop over the `output` list, and save the name of each person in a list `names` and the score of each person in a list called `scores`. Make sure the `scores` list has only `int` not `string`s (to this end, you can convert strings to ints by doing `int(yourstring)`).
 
 Your output should look like:
 
