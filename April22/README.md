@@ -94,6 +94,12 @@ And as above, you can also close the file once you've done writing on it by doin
 
 **Task 3:** Create a new file, `ex2.txt` that writes a file in the very same format as `ex1.txt` (i.e., columns separated by `;`), but that has a third column that says "pass" when a student passed the test (score is greater or equal than 3) or "fail" when a student did not pass the test (i.e., score is less than 3).
 
+**Hint:** the first two lines of the output file `ex2.txt` should look like this:
+```
+carlos;6;pass
+rene;9;pass
+```
+
 ## Part 4: writing a callable script
 
 In the above excercise, you've basically created the skeleton for a function that receives a filename `ex1.txt` and then outputs another filename `ex2.txt`. This is the next task --- to create a function that does all of this by a simple call.
