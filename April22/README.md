@@ -98,7 +98,7 @@ And as above, you can also close the file once you've done writing on it by doin
 
 In the above excercise, you've basically created the skeleton for a function that receives a filename `ex1.txt` and then outputs another filename `ex2.txt`. This is the next task --- to create a function that does all of this by a simple call.
 
-**Task 4:** Create a python function `testcheck(input, output)` that takes a filename `input` (in your case `ex1.txt`) and writes a new file with a filename `output` (in the case above `ex2.txt`) which is identical to `ex1.txt` but with an extra column. In other words, write a function that does exactly all of the things you did above. Test your function by running it in a cell, i.e., `testcheck('ex1.txt', 'ex3.txt')` --- `ex3.txt` should be identical to 'ex2.txt'.
+**Task 4:** Create a python function `testcheck(input, output)` that takes a filename `input` (in your case `ex1.txt`) and writes a new file with a filename `output` (in the case above `ex2.txt`) which is identical to `ex1.txt` but with an extra column. In other words, write a function that does exactly all of the things you did above. Test your function by running it in a cell, i.e., `testcheck('ex1.txt', 'ex3.txt')` --- `ex3.txt` should be identical to `ex2.txt`.
 
 **Hint:** Remember that to create functions, you do something like:
 
