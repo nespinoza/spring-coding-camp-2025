@@ -39,7 +39,7 @@ In [13]: output
 Out[13]: ['carlos;6\n', 'rene;9\n', 'juan;1\n', 'diego;2\n', 'romina;5\n']
 ```
 
-**Hint 1:** your code should look exit the `while` loop when the line that is read is `''`. In other words, something like
+**Hint 1:** your code should exit the `while` loop when the line that is read is `''`. In other words, something like
 
 ```
     line = myfile.readline()
@@ -48,8 +48,14 @@ Out[13]: ['carlos;6\n', 'rene;9\n', 'juan;1\n', 'diego;2\n', 'romina;5\n']
 ```
 should help you get out of the loop.
 
-**Task 2:** one you complete the loop, add a line at the end of your code that closes the file as follows: `myfile.close()`.
+**Task 2:** once you complete the loop, add a line at the end of your code that closes the file as follows: `myfile.close()`.
 
 ## Part 2: writing a file
 
-Congratulations!
+Congratulations! You now know how to read files. We will now go through the outputs of the file and create a new file with the results of whether the students passed or failed their tests.
+
+With your new list, `output[0]` should give you as output `'carlos;6\n'`. This obviously has the name first, the score after the `;` and then a pesky `\n` at the end. The `\n` at the end is the way the string is telling us there is a "jump of a line" in the text file. The `;` in the string on the other hand is the "delimiter" of the string --- is telling us what separates columns in the format of the file (sometimes this is commas, sometimes this is blank space).
+
+There's a handy function called `split` that allows you to separate information from a given string. To learn how to use it, suppose we have the string `s = 'a,b,c,d'`. If you then do `s.split(',')`, the output will be `['a', 'b', 'c', 'd']` (try it!).
+
+**Task 2:** using the `split` functionality of strings, do a for loop over the `output` list, and save the name of each person in a list `names` and the score of each person in a list called `scores`.
