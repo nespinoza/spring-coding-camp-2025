@@ -3,7 +3,7 @@
 
 To begin, clone this repository by doing:
 
-`git clone http`
+`git clone https://github.com/nespinoza/spring-coding-camp-2025`
 
 And you should be good to go!
 
