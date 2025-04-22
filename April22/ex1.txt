@@ -1,0 +1,5 @@
+carlos;6
+rene;9
+juan;1
+diego;2
+romina;5
