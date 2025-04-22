@@ -8,7 +8,7 @@ In this exercise, we will read a file and print some output. Then, we'll write a
 2. Having read the file, define who passed and who failed the test.
 3. Write a new text file with a new column that says whether that person has failed (`fail`) or passed (`pass`) the test.
 
-At the end of this excercise, you should have produced 3 new files:
+At the end of this excercise, you should have produced 5 new files:
 
 - `Notebook.ipynb`, a notebook where you'll work on your results.
 - `utils.py`, a Python script that has the functions necessary to do the work.
