@@ -9,5 +9,5 @@ And you should be good to go!
 
 ## Days of homework so far...
 
-- [] **April 22nd**: reading text files & importing code.
+- [ ] **April 22nd**: reading text files & importing code.
 
