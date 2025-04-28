@@ -1,0 +1,5 @@
+carlos;6;Pass
+rene;9;Pass
+juan;1;Fail
+diego;2;Fail
+romina;5;Pass
